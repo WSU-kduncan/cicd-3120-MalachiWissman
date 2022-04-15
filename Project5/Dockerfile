@@ -4,8 +4,6 @@ FROM httpd:2.4
 
 #RUN apt install -y python3
 
-WORKDIR /home/malachi/Project5/
-
-COPY . .
+COPY ./website /home/malachi/Project5/
 
 
