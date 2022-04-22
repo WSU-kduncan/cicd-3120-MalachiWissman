@@ -13,7 +13,7 @@ jobs:
     steps:
       - name: Say Hello
         run: echo Hello World!
-      - name: say Goodbye!
+      - name: Say Goodbye!
         run: |
           echo Job finished.
           echo Goodbye!
