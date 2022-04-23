@@ -42,14 +42,15 @@
 
 - Container restart script
 	- what it does
-		- 
+		-  Restart policies ensure that linked containers are started in the correct order.
 - webhook task defination file
 	- what it does
-		- 
+		- A file that defines all the webhook tasks.
 - Setting up a webhook on the server
 	- How you created you own listener
-		- 
+		- You create your own lisistner throguh GitHub using an application/json type.
 	- How you installed and are running the webhook on GitHub
-		- 
+		- follow this guide: https://levelup.gitconnected.com/automated-deployment-using-docker-github-actions-and-webhooks-54018fc12e32
 - Setting up a notifier in GitHub or DockerHub
-	- 
+	- use this guide: https://github.com/jenkinsci/dockerhub-notification-plugin
+
